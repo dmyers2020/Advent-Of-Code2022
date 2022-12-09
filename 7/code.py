@@ -61,9 +61,5 @@ print("Part Two : "+ str(min(candidates)))
 # cmd_ls = re.compile(r'[$].[l].*')
 # result_file = re.compile(r'\d+')
 # result_dir = re.compile(r'(dir).\w')
-'''
-find size of each dir 
-establish parentage of dirs
-if dir_size less than <100000, sum+=
-'''
+
 # matches = cmd_ls.finditer(input)
